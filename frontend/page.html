@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-BR">
 	
 	<head>
 		<link rel="stylesheet" href="style.css">
@@ -13,6 +13,29 @@
 		<h2>O que é o Mitanime?</h2>
 		<p>Mitanime é um gerenciador de animes online, onde você consegue saber quantos animes já assitiu :)</p>
 		
+		<div class="tab">
+			<button class="tablinks" onclick="openCondition(event, 'All')">Todos os animes</button>
+			<button class="tablinks" onclick="openCondition(event, 'Watched')">Animes vistos</button>
+			<button class="tablinks" onclick="openCondition(event, 'Unwatched')">Animes não vistos</button>
+		</div>
+		
+		<div id="All" class="tabcontent">
+			<p class="wAnime">Ryuuou no Oshigoto</p>
+			<p class="uAnime">Shingeki no Kyojin</p>
+			<p class="wAnime">Blend S</p>
+		</div>
+		
+		<div id="Watched" class="tabcontent">
+			<p class="wAnime">Ryuuou no Oshigoto</p>
+			<p class="wAnime">Blend S</p>
+		</div>
+		
+		<div id="Unwatched" class="tabcontent">
+			<p class="uAnime">Shingeki no Kyojin</p>
+		</div>
+		
+		
+		<script src="javascript.js"></script>
 	</body>
 	
 </html>
