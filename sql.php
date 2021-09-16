@@ -6,7 +6,8 @@ $a = 1;
 if($a == 1) {
 	$sql_index = array("localhost", "root", "", "rmitanime");
 } else {
-	$sql_index = array("sql111.epizy.com", "epiz_28205216", "78xH6viVlh", "epiz_28205216_Mitanime");
+	// Se não for localhost, colocar os dados do MySQL aqui
+	$sql_index = array("***", "***", "***", "***");
 }
 
 ?>
