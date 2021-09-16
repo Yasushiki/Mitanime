@@ -1,0 +1,173 @@
+/*RAW HTML*/
+body {
+	font-family: Verdana, sans-serif;
+	background-color: #f1f1f1;
+}
+
+p {
+	margin-left: 10px;
+}
+
+a h1, a:link, a:visited, a:hover, a:active {
+	padding: 10px 0px;
+	color: #af0029;
+	font-family:  "ＭＳ Ｐゴシック", "MS PGothic", "メイリオ", Meiryo, sans-serif;
+	text-align: center;
+	font-size: 210%;
+	text-shadow: 2px 2px 3px #000000;
+	text-decoration: none;	
+
+}
+
+
+
+/*TABS*/
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin: 0px 20px 0px 10px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0px 20px 20px 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+/*ANIME*/
+.wAnime {
+	color: green;
+}
+
+.uAnime {
+	color: red;
+}
+
+
+
+/*FORM COMPONENTS*/
+
+.component {
+	padding: 0px 10px 10px;
+}
+
+.component checkbox {
+	cursor: pointer;
+}
+
+.component .asButton {
+	font-family: Verdana, sans-serif;
+	background-color: #af0029;
+	color: white;
+	font-size: 15px;
+	border: none;
+	text-align: center;
+	padding: 15px 40px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.component .asButton:hover {
+	background-color: #9e0025;
+}
+
+.component .textBox {
+	font-size: 14px;
+	padding: 5px 5px;
+	text-align: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.component .searchBox {
+	padding: 15px 1px;
+}
+
+
+.coisaAnime {
+	background:none;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor: pointer;
+	outline:none;
+}
+
+.coisaAnime:hover, .coisaAnime:active, .coisaAnime:focus {
+	outline: none;
+	background: #f1f1f1;
+}
+
+
+.btn-primary {
+	font-family: Verdana, sans-serif;
+	background-color: #af0029;
+	color: white;
+	font-size: 15px;
+	border: none;
+	text-align: center;
+	padding: 15px 40px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.btn-primary:hover, .btn-primary:active:focus, .btn-primary:focus {
+	outline: none;
+	background-color: #9e0025;
+	border: none;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+
+.login {
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+
+.login table, button{
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+.login td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+}
+
+.login th {
+    background-color: #ab02c3;
+    border-top: none;
+}
+
+.login td:first-child, th:first-child {
+    border-left: none;
+}
+
