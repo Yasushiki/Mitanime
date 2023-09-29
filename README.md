@@ -15,4 +15,4 @@ An online anime list manager
 <br>
 
 ### website link
-http://mitanime.rf.gd/
+~~http://mitanime.rf.gd/ (deprecated)~~
